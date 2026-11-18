@@ -14,8 +14,10 @@
       </tr>
     }
   </table>
-  <button (click)="add()">add product</button>
+  
+  @if (!isfiltered) {<button (click)="add()">add product</button>}
   <button (click)="filter()">price more than 1000</button>
+  <button (click)="showAllProducts()">Show All Products</button>
 </div>
 
 <router-outlet />
