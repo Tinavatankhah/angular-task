@@ -1,0 +1,20 @@
+table {
+  margin: auto;
+  border: 2px solid aqua;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+}
+td {
+  border: 2px solid aqua;
+  text-align: center;
+  padding: 20px;
+}
+button{
+    display: block;
+    margin:10px auto;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
